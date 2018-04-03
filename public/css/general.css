@@ -1,0 +1,486 @@
+body {
+    -webkit-print-color-adjust:exact;
+}
+
+.btn-cardinal-orange {
+    border-color: #F4783B;
+    background: #F4783B;
+    color: #fff;
+}
+
+.btn-cardinal-orange:hover {
+    border-color: #F4783B;
+    background: #fff;
+    color: #F4783B;
+}
+
+.tip {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.flat {
+    box-shadow: 0px 0px 0px 0px rgba(50, 50, 50, 0.20);
+}
+
+.btn-cardinal-gray {
+    border-color: rgb(87, 96, 105);
+    background: rgb(87, 96, 105);
+    color: #fff;
+}
+
+.btn-cardinal-gray:hover {
+    border-color: rgb(87, 96, 105);
+    background: #fff;
+    color: rgb(87, 96, 105);
+}
+
+.btn-panel {
+    width: 200px;
+    margin: 8px 10px 8px 0;
+}
+
+.btn-panel-single {
+    margin: 10px 0 10px 0;
+}
+
+.panel-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.panel-heading {
+  height: 50px;
+  text-align: center;
+}
+
+.margin-right-7px {
+    margin-right: 7px;
+}
+
+.margin-left-7px {
+    margin-left: 7px;
+}
+
+.margin-top-20px {
+    margin-left: 20px;
+}
+
+.margin-right-2px {
+    margin-right: 2px;
+}
+
+.margin-bottom-10px {
+    margin-bottom: 10px;
+}
+
+.panel-grid {
+    display: block;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    padding: 0px 60px;
+}
+
+.cardinal-navbar {
+    height: 70px;
+    border: none;
+    z-index: 1;
+}
+
+.navbar-logo {
+    width: 126px;
+    height: 24px;
+}
+
+.navbar-character {
+    padding-top: 12px;
+    font-size: 16px;
+}
+
+.chevron-cardinal-gray {
+    color: #000;
+}
+
+.chevron-cardinal-gray:hover {
+    color: rgb(87, 96, 105);
+}
+
+.plus-minus {
+    width: 25px;
+    height: 25px;
+    border-radius: 2px;
+    vertical-align: middle;;
+    background-color: rgb(87, 96, 105);
+    color: #fff;
+}
+
+.plus-minus:hover {
+    width: 25px;
+    height: 25px;
+    border-radius: 2px;
+    vertical-align: middle;;
+    background-color: #fff;
+    color: rgb(87, 96, 105);
+}
+
+.plus-minus-container {
+    padding-bottom: 20px;
+}
+
+.panel-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+}
+
+.loader {
+    margin: 0;
+    padding: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.player-panel-img {
+  width: 130px;
+  /*height: 120px;*/
+}
+
+.team-panel-img {
+  width: 62.05%;
+}
+
+.panel-size {
+    width: 250px;
+    height: 150px;
+}
+
+.welcome-jumbotron {
+    margin: auto;
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px 30px 30px 30px;
+    border-radius: 5px;
+
+}
+
+.panel-login {
+    height: 400px;
+    width: 500px;
+}
+
+.admin-section {
+  width: 75%;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+.admin-section h1 {
+  text-align: center;
+}
+
+.admin-article-button {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 25px;
+}
+
+.admin-article-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-new-user {
+  padding: 10px;
+}
+
+.admin-new-user-label {
+  padding-left: 0px;
+}
+
+.admin-new-user-form {
+  padding: 10px;
+}
+
+.add-team-article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.add-team-article-div,
+.add-team-nav {
+  width: 400px;
+}
+
+.add-team-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-team-header {
+  margin-top: auto;
+  margin-bottom: -30px;
+}
+
+.admin-button {
+  width: 170px;
+  margin: 5px;
+}
+
+.animated {
+    -webkit-animation-duration: 6s;
+    animation-duration: 6s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.visualization-module {
+    border-radius: 0;
+}
+
+.visualization-module:hover {
+    box-shadow: 0px 0px 2px 2px rgba(50, 50, 50, 0.20);
+}
+
+.visualization-module-name {
+    color: #F4783B;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.visualization-module-graph {
+    width: 90%;
+}
+
+.visual-analysis-form {
+  margin-top: 75px;
+  padding: 25px;
+}
+
+.dropdown-menu {
+  padding: 10px;
+}
+
+.daterangepicker .calendar {
+  float: left;
+  text-align: center;
+}
+
+.daterangepicker td.off,
+.daterangepicker td.off.end-date,
+.daterangepicker td.off.in-range,
+.daterangepicker td.off.start-date {
+  background-color: #fff;
+  border-color: transparent;
+  color: #999;
+}
+
+.daterangepicker td.in-range {
+  background-color: #f4cc83;
+  border-color: transparent;
+  color: #000;
+  border-radius: 0;
+}
+
+.daterangepicker td.active {
+  background-color: #F4783B;
+  border-color: transparent;
+  color: #fff;
+}
+
+.daterangepicker td.start-date {
+  border-radius: 4px 0 0 4px;
+}
+
+.daterangepicker td.end-date {
+  border-radius: 0 4px 4px 0;
+}
+
+.daterangepicker .calendar.right {
+  margin-left: 10px;
+}
+
+.daterangepicker Button {
+  margin-top: 10px;
+}
+
+.daterangepicker .cancelBtn {
+  background-color: #fff;
+  color: #F4783B;
+}
+
+.daterangepicker .cancelBtn:hover {
+  border-color: #F4783B;
+  background: #F4783B;
+  color: #fff;
+}
+
+.daterangepicker .btn-success {
+  border-color: #F4783B;
+  background: #F4783B;
+  color: #fff;
+}
+
+.daterangepicker .btn-success:hover {
+  border-color: #F4783B;
+  background: #fff;
+  color: #F4783B;
+}
+
+/* .visualAnalysisTableD3 div {
+  font: 10px sans-serif;
+  background-color: steelblue;
+  text-align: right;
+  padding: 3px;
+  margin: 1px 20px;
+  color: white;
+} */
+
+.visualAnalysisTablePlayerName {
+  text-align: center;
+}
+
+.visualAnalysisTableD3 {
+  text-align: center;
+}
+
+.D3-canvas {
+    margin-bottom: 100px;
+}
+
+.legend-img {
+    border-radius: 50%;
+}
+
+.visualAnalysisCenter {
+  text-align: center;
+}
+
+.line {
+  fill: none;
+  stroke: #000;
+  stroke-width: 2px;
+}
+
+.dot {
+    fill: steelblue;
+    stroke: #fff;
+    /*position: relative;*/
+    /*z-index: 999;*/
+}
+
+.dot2 {
+    fill: #fe4365;
+    stroke: #fff;
+    /*position: relative;*/
+    /*z-index: 999;*/
+}
+
+.data-point-label {
+    color: steelblue;
+    font-size: 12px;
+    fill: steelblue;
+}
+
+.data-point-label-2 {
+    color: #fe4365;
+    font-size: 12px;
+    fill: #fe4365;
+}
+
+.area {
+    fill: steelblue;
+    opacity:0.1;
+}
+
+.area2 {
+    fill: #fe4365;
+    opacity:0.1;
+}
+
+.focus1 circle {
+    fill: none;
+    stroke: steelblue;
+}
+
+.focus2 rect {
+    fill: none;
+    stroke: #fe4365e;
+}
+
+.overlay {
+    fill: none;
+    pointer-events: all;
+}
+
+div.tooltip1 {
+     position: absolute;
+     text-align: center;
+     width: 100px;
+     height: 48px;
+     padding: 2px;
+     font: 12px sans-serif;
+     background: steelblue;
+    color: white;
+     border: 0px;
+     border-radius: 8px;
+     pointer-events: none;
+ }
+
+div.tooltip2 {
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 48px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: #fe4365;
+    color: white;
+    /*opacity: 0.7;*/
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+@media screen and (min-width: 768px) {
+    .team-panel-img {
+        width: 62.05%
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .panel-img-col {
+        margin: 12% auto;
+    }
+
+    .player-panel-img {
+        width: 100%;
+    }
+}

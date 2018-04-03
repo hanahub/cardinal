@@ -1,0 +1,13 @@
+.form-control {
+  box-shadow: none;
+  border-color: #bdbdbd;
+  border-radius: 0px;
+}
+.form-control:focus {
+  box-shadow: none;
+  border-color: #3276B1;
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+  -webkit-appearance: none;
+  outline: none;
+}
